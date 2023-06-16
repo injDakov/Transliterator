@@ -1,11 +1,46 @@
 # Dakov.Transliterator
----
+
 [![License](http://img.shields.io/:license-MIT-blue.svg)](https://licenses.nuget.org/MIT) [![NuGet Badge](https://buildstats.info/nuget/Dakov.Transliterator)](https://www.nuget.org/packages/Dakov.Transliterator/) 
 
 Both directions transliteration .Net library converting Cyrillic to Latin by the Basic or Bulgarian rule set.
 
+**If my small library saved you time and you think that is useful, you can share it with your friends or colleagues.**\
+**And if you want, don't hesitate to grab me a beer. :)**
+
+#### An expression of gratitude
+For each person who donates, I can allocate space for his name, project, or other information that he wants to share with my auditory.
+The data will be in the section **Friends and Supporters**.
+This also can be ads exchange. :)
+
+#### Donation opportunities
+All wallets are provided and supported by [Bitfinex](https://bitfinex.com/?refcode=kwqvP9OMT). Please read the actual information.
+
+* **Bitcoin (BTC)**\
+Address - **3FqXqTzGhzxosERosz832F7rGDXMteMjRh**
+
+* **Ethereum (ETH)** At this time Bitfinex does not accept transactions sent from smart contracts.\
+Address - **0x818E07acD7d75d1812B2E7067e417C5Bc80d327E**
+
+* **XRP (XRP)** Sending XRP requires both an address and a Tag\
+Address - **rLW9gnQo7BQhU6igk5keqYnH3TVrCxGRzm**\
+Tag - **2345006832**
+
+* **Dogecoin (DOGE)**\
+Address - **DNXrvtmrSWVyBKfmPizXQsreqLSRJQpqCv**
+
+* **Bitcoin Cash Node (BCHN)** Depositing anything other than BCH Node WILL RESULT IN LOSS OF FUNDS. Bitfinex currently is not supporting automated chain splits.\
+Address - **bitcoincash:qz4tu69cn50gryhdahemytrszdtnn9vwtqexclhleq**
+
+* **Litecoin (LTC)**\
+Address - **MD7ngCjhUbLNZfnvLdXkVu1LUkXwZMTHmF**
+
+* **Monero (XMR)**\
+Address - **86GNkvtYzbEZwq5MxpVvzP7kZ2tUgea5SKy8FTJ4S48fY8hz3DYBPWwJsLNz2woi7dQi34TYkcPDpZKh7iZLaaMLGHrSTwZ**
+
+**Note:** It is recommended that you check the transaction fees before making a transaction and then select the appropriate currency. Sometimes the fees are extremely high.
+
 # Installation
----
+
 Its can be installed and use via [NuGet](https://www.nuget.org/packages/Dakov.Transliterator/):
 
 #### Package Manager
@@ -18,6 +53,7 @@ dotnet add package Dakov.Transliterator
 ```
 
 # How to use it
+
 We should include the library after the installation.
 ```cs
 using Dakov.Transliterator;
@@ -98,9 +134,11 @@ var cyrillicText = Transliterator.LatinToCyrillic(latinText);
 ```
 
 # Transliteration law
----
+
 The full text on Transliteration Law you can [read here (on Bulgarian).](https://www.lex.bg/laws/ldoc/2135623667)
+
 #### Basic character pairs
+
 | Cyrillic  |   Latin   |
 |-----------|-----------|
 |   А, а    |   A, a    |
@@ -135,6 +173,7 @@ The full text on Transliteration Law you can [read here (on Bulgarian).](https:/
 |   Я, я    |   Ya, ya  |
 
 #### Bulgarian specific rules and exceptions
+
 |   Cyrillic        |   Latin           |                           Description                                 |
 |-------------------|-------------------|-----------------------------------------------------------------------|
 | ия                | ia                | Article 5(2): In case these two letters are at the end of the word.   |
@@ -148,18 +187,23 @@ The full text on Transliteration Law you can [read here (on Bulgarian).](https:/
 | Златни пясъци     | Zlatni рyasatsi   | Article 8                                                             |
 | Горна Оряховица   | Gorna Oryahovitsa | Article 8                                                             |
 
-# Todos
----
+# Friends and Supporters
+
+Waiting for the first friends! :) 
+
+# To-Do List
+
  - Acception generic objects as parameters in transliteration methods.
  - Extending exception support.
  - Adding specific rules for other languages.
 
 # Author
----
+
 #### Petar Dakov
+
 * [LinkedIn](https://bg.linkedin.com/in/dakov)
 * [Personal Website](http://dakov.net/)
 
 # License
----
+
 [![License](http://img.shields.io/:license-MIT-blue.svg)](https://licenses.nuget.org/MIT)
